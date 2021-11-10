@@ -50,6 +50,20 @@ document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
 //add
 
 
+function changeNiveditha(event) {
+    console.dir(oldtarget);
+    event.target.src = "https://media.istockphoto.com/vectors/cute-animals-collection-farm-animals-wild-animals-marina-animals-on-vector-id935702298?k=20&m=935702298&s=612x612&w=0&h=om30gvIfk4HJHX1fVLMWahhpdghcVHbbj6D5m9oDocQ= ";
+    if (oldtarget !== null) {
+        oldtarget.src = oldpic;
+    }
+    oldtarget = 4;
+    oldpic = "https://cdn.mos.cms.futurecdn.net/vZPpHJ9WoQXzvgzSom7doV.jpg"
+        document.getElementById("description").innerHTML = "Nive <strong>loves<strong> photography <3"
+}
+document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
+//Nive
+
+
 function reset() {
     document.getElementById("Sejal1").src = "https://i.pinimg.com/236x/02/6a/cc/026acca08fb7beea6bd4ecd430e312bd.jpg";
     document.getElementById("sejaldescription").innerHTML = "";
@@ -110,19 +124,5 @@ function changeJovita(event) {
 document.getElementById("Jovita1").addEventListener("click", changeJovita);
 //Jovita 
 
-
-
-function changeNiveditha(event) {
-    console.dir(oldtarget);
-    event.target.src = "https://media.istockphoto.com/vectors/cute-animals-collection-farm-animals-wild-animals-marina-animals-on-vector-id935702298?k=20&m=935702298&s=612x612&w=0&h=om30gvIfk4HJHX1fVLMWahhpdghcVHbbj6D5m9oDocQ= ";
-    if (oldtarget !== null) {
-        oldtarget.src = oldpic;
-    }
-    oldtarget = event.target;
-    oldpic = "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        document.getElementById("description").innerHTML = "Nive <strong>loves<strong> photography <3"
-}
-document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
-//Nive
 
 
