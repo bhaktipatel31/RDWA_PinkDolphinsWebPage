@@ -14,7 +14,7 @@ function restorePicture() {
          document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
     } 
     if (oldTarget == 6) {
-         document.getElementById("Jovita1").src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
+         document.getElementById("Jovita1").src = "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.18169-9/11701079_1108700615814049_3893307625563998154_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kKp3VeG5OLMAX_0UWeU&_nc_ht=scontent.fewr1-6.fna&oh=a52b7e1e4f3ace58a648fee139b0107d&oe=61B1CFCE";
     } 
     
 //add
@@ -64,7 +64,7 @@ function changeNiveditha(event) {
 document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
 
 function changeUnnati(event) {
-    event.target.src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
+    event.target.src = "https://previews.123rf.com/images/diplograma/diplograma2008/diplograma200800567/153696749-cute-boba-bubble-milk-tea-with-tapioca-pearl-milk-tea-black-delicious-pearls-is-taiwanese-famous-pop.jpg";
     restorePicture();
     oldtarget = 5;
         document.getElementById("unnatidescription").innerHTML = "Unnati <strong>loves<strong> strawberry mochi :P"
@@ -72,7 +72,7 @@ function changeUnnati(event) {
 document.getElementById("Unnati1").addEventListener("click", changeUnnati);
 
 function changeJovita(event) {
-    event.target.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdaydaynews.cc%2Fen%2Fbeauty%2F923453.html&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAK";
+    event.target.src = "https://i.etsystatic.com/16096833/r/il/14d066/1869303136/il_1588xN.1869303136_f65e.jpg";
     restorePicture();
     oldtarget = 6;
         document.getElementById("jovitadescription").innerHTML = "Jovita <strong>loves</strong> froyo :D"
@@ -98,7 +98,7 @@ function reset() {
     document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
     document.getElementById("unnatidescription").innerHTML = "";
     
-    document.getElementById("Jovita1").src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
+    document.getElementById("Jovita1").src = "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.18169-9/11701079_1108700615814049_3893307625563998154_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kKp3VeG5OLMAX_0UWeU&_nc_ht=scontent.fewr1-6.fna&oh=a52b7e1e4f3ace58a648fee139b0107d&oe=61B1CFCE";
     document.getElementById("jovitadescription").innerHTML = "";
     
 //add
