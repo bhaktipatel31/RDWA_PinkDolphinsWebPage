@@ -12,6 +12,7 @@ function restorePicture() {
     }
     if (oldTarget == 4) {
          document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
+//add
 }
 function toggleVis(id) {
     var x = document.getElementById(id);
@@ -48,9 +49,6 @@ function changeSruthi(event) {
 }
 
 document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
-
-//add
-
 
 function changeNiveditha(event) {
     event.target.src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
