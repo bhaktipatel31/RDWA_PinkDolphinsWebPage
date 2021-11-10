@@ -12,6 +12,11 @@ function restorePicture() {
     }
     if (oldTarget == 4) {
          document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
+    } 
+    if (oldTarget == 5) {
+         document.getElementById("Niveditha1").src = "http://vivianwskwan.com/wp-content/uploads/2018/06/mochimii_family-gif-500.gif";
+    } 
+    
 //add
 }
 function toggleVis(id) {
@@ -57,6 +62,14 @@ function changeNiveditha(event) {
         document.getElementById("nivedithadescription").innerHTML = "Nive <strong>loves</strong> photography <3"
 }
 document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
+
+function changeUnnati(event) {
+    event.target.src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
+    restorePicture();
+    oldtarget = 5;
+        document.getElementById("unnatidescription").innerHTML = "Unnati <strong>loves<strong> strawberry mochi :P"
+}
+document.getElementById("Unnati1").addEventListener("click", changeUnnati);
 //add
 
 
@@ -72,6 +85,10 @@ function reset() {
 
     document.getElementById("Niveditha1").src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
     document.getElementById("nivedithadescription").innerHTML = "";
+ 
+    document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
+    document.getElementById("unnatidescription").innerHTML = "";
+    
 //add
 }
 document.getElementById("reset").addEventListener("click", reset);
@@ -81,33 +98,10 @@ document.getElementById("reset").addEventListener("click", reset);
 
 
 
-
-    if (oldtarget = 3) {
-        document.getElementById("Unnati1").src"http://vivianwskwan.com/wp-content/uploads/2018/06/mochimii_family-gif-500.gif";
-    }
     if (oldtarget = 4) {
         document.getElementById("Jovita1").src"";
     }
-    if (oldtarget = 6) {
-        document.getElementById("Niveditha1").src"";
-    }
-}
 
-
-
-
-function changeUnnati(event) {
-    console.dir(oldtarget);
-    event.target.src = "http://vivianwskwan.com/wp-content/uploads/2018/06/mochimii_family-gif-500.gif";
-    if (oldtarget !== null) {
-        oldtarget.src = oldpic;
-    }
-    oldtarget = event.target;
-    oldpic = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
-    document.getElementById("description").innerHTML = "Unnati <strong>loves<strong> strawberry mochi :P"
-}
-document.getElementById("Unnati1").addEventListener("click", changeUnnati);
-//Unnati
 
 function changeJovita(event) {
     console.dir(oldtarget);
