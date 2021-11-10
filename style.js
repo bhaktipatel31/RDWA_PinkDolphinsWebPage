@@ -56,7 +56,7 @@ function changeNiveditha(event) {
     event.target.src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
     restorePicture();
     oldtarget = 4;
-        document.getElementById("nivedithadescription").innerHTML = "Nive <strong>loves<strong> photography <3"
+        document.getElementById("nivedithadescription").innerHTML = "Nive <strong>loves</strong> photography <3"
 }
 document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
 //add
