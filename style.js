@@ -83,7 +83,7 @@ document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
 
 function changeNiveditha(event) {
     console.dir(oldtarget);
-    event.target.src = " ";
+    event.target.src = "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
     if (oldtarget !== null) {
         oldtarget.src = oldpic;
     }
@@ -91,7 +91,7 @@ function changeNiveditha(event) {
     oldpic =
         document.getElementById("description").innerHTML = "Nive <strong>loves<strong> photography <3"
 }
-document.getElementById("Nive1").addEventListener("click", changeNiveditha);
+document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
 //Nive
 
 
