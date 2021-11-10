@@ -8,7 +8,7 @@ function restorePicture() {
         document.getElementById("Bhakti1").src = "https://i.pinimg.com/564x/40/e6/29/40e629ddb31aedacdf2c5e94cfc7e23a.jpg";
     }
     if (oldtarget = 3) {
-        document.getElementById("Mochi").src"";
+        document.getElementById("Unnati1").src"http://vivianwskwan.com/wp-content/uploads/2018/06/mochimii_family-gif-500.gif";
     }
     if (oldtarget = 4) {
         document.getElementById("Jovita1").src"";
@@ -52,7 +52,7 @@ function changeUnnati(event) {
     oldpic = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
     document.getElementById("description").innerHTML = "Unnati <strong>loves<strong> strawberry mochi :P"
 }
-document.getElementById("Mochi").addEventListener("click", changeUnnati);
+document.getElementById("Unnati1").addEventListener("click", changeUnnati);
 //Unnati
 
 function changeJovita(event) {
@@ -83,7 +83,7 @@ document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
 
 function changeNiveditha(event) {
     console.dir(oldtarget);
-    event.target.src = "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+    event.target.src = " ";
     if (oldtarget !== null) {
         oldtarget.src = oldpic;
     }
@@ -91,7 +91,7 @@ function changeNiveditha(event) {
     oldpic =
         document.getElementById("description").innerHTML = "Nive <strong>loves<strong> photography <3"
 }
-document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
+document.getElementById("Nive1").addEventListener("click", changeNiveditha);
 //Nive
 
 
