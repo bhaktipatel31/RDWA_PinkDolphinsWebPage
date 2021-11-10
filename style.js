@@ -11,16 +11,15 @@ function restorePicture() {
         document.getElementById("Sruthi1").src = "https://www.nicepng.com/png/full/161-1615668_super-mario-sunshine-princess-peach.png";
     }
     if (oldTarget == 4) {
-         document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
+        document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
     }
     if (oldTarget == 5) {
-         document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
+        document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
     }
     if (oldTarget == 6) {
-         document.getElementById("Jovita1").src = "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.18169-9/11701079_1108700615814049_3893307625563998154_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kKp3VeG5OLMAX_0UWeU&_nc_ht=scontent.fewr1-6.fna&oh=a52b7e1e4f3ace58a648fee139b0107d&oe=61B1CFCE";
-    } 
-    
-//add
+        document.getElementById("Jovita1").src = "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.18169-9/11701079_1108700615814049_3893307625563998154_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kKp3VeG5OLMAX_0UWeU&_nc_ht=scontent.fewr1-6.fna&oh=a52b7e1e4f3ace58a648fee139b0107d&oe=61B1CFCE";
+    }
+
 }
 function toggleVis(id) {
     var x = document.getElementById(id);
@@ -58,31 +57,30 @@ function changeSruthi(event) {
 
 document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
 
-function changeNiveditha(event) {
-    event.target.src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
-    restorePicture();
-    oldtarget = 4;
-        document.getElementById("Nivedithadescription").innerHTML = "Nive <strong>loves</strong> photography <3"
-}
-document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
 
 function changeUnnati(event) {
     event.target.src = "https://previews.123rf.com/images/diplograma/diplograma2008/diplograma200800567/153696749-cute-boba-bubble-milk-tea-with-tapioca-pearl-milk-tea-black-delicious-pearls-is-taiwanese-famous-pop.jpg";
     restorePicture();
-    oldtarget = 5;
-        document.getElementById("unnatidescription").innerHTML = "Unnati <strong>loves<strong> strawberry mochi :P"
+    oldtarget = 4;
+    document.getElementById("unnatidescription").innerHTML = "Unnati <strong>loves</strong> strawberry mochi :P"
 }
 document.getElementById("Unnati1").addEventListener("click", changeUnnati);
 
+function changeNiveditha(event) {
+    event.target.src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
+    restorePicture();
+    oldtarget = 5;
+    document.getElementById("Nivedithadescription").innerHTML = "Nive <strong>loves</strong> photography <3"
+}
+document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
+
 function changeJovita(event) {
-    event.target.src = "https://i.etsystatic.com/16096833/r/il/14d066/1869303136/il_1588xN.1869303136_f65e.jpg";
+    event.target.src = "https://i.pinimg.com/564x/6c/9e/8c/6c9e8c46a9dfbd851afd92446ec5220a.jpg";
     restorePicture();
     oldtarget = 6;
-        document.getElementById("jovitadescription").innerHTML = "Jovita <strong>loves</strong> froyo :D"
+    document.getElementById("jovitadescription").innerHTML = "Jovita <strong>loves</strong> froyo :D"
 }
 document.getElementById("Jovita1").addEventListener("click", changeJovita);
-
-//add
 
 
 function reset() {
@@ -92,22 +90,17 @@ function reset() {
     document.getElementById("Bhakti1").src = "https://i.pinimg.com/564x/40/e6/29/40e629ddb31aedacdf2c5e94cfc7e23a.jpg";
     document.getElementById("bhaktidescription").innerHTML = "";
 
-    document.getElementById("Sruthi1").src = "https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png";
+    document.getElementById("Sruthi1").src = "https://www.nicepng.com/png/full/161-1615668_super-mario-sunshine-princess-peach.png";
     document.getElementById("sruthidescription").innerHTML = "";
 
-    document.getElementById("Niveditha1").src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
-    document.getElementById("nivedithadescription").innerHTML = "";
- 
     document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
     document.getElementById("unnatidescription").innerHTML = "";
-    
+
+    document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
+    document.getElementById("Nivedithadescription").innerHTML = "";
+
     document.getElementById("Jovita1").src = "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.18169-9/11701079_1108700615814049_3893307625563998154_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kKp3VeG5OLMAX_0UWeU&_nc_ht=scontent.fewr1-6.fna&oh=a52b7e1e4f3ace58a648fee139b0107d&oe=61B1CFCE";
     document.getElementById("jovitadescription").innerHTML = "";
-    
-//add
+
 }
 document.getElementById("reset").addEventListener("click", reset);
-
-
-//above is updated
-
