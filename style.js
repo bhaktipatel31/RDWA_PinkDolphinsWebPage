@@ -10,6 +10,8 @@ function restorePicture() {
     if (oldTarget == 3) {
         document.getElementById("Sruthi1").src = "https://www.nicepng.com/png/full/161-1615668_super-mario-sunshine-princess-peach.png";
     }
+    if (oldTarget == 4) {
+         document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
 }
 function toggleVis(id) {
     var x = document.getElementById(id);
@@ -51,17 +53,13 @@ document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
 
 
 function changeNiveditha(event) {
-    console.dir(oldtarget);
-    event.target.src = "https://media.istockphoto.com/vectors/cute-animals-collection-farm-animals-wild-animals-marina-animals-on-vector-id935702298?k=20&m=935702298&s=612x612&w=0&h=om30gvIfk4HJHX1fVLMWahhpdghcVHbbj6D5m9oDocQ= ";
-    if (oldtarget !== null) {
-        oldtarget.src = oldpic;
-    }
+    event.target.src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
+    restorePicture();
     oldtarget = 4;
-    oldpic = "https://cdn.mos.cms.futurecdn.net/vZPpHJ9WoQXzvgzSom7doV.jpg"
         document.getElementById("description").innerHTML = "Nive <strong>loves<strong> photography <3"
 }
 document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
-//Nive
+//add
 
 
 function reset() {
@@ -74,6 +72,8 @@ function reset() {
     document.getElementById("Sruthi1").src = "https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png";
     document.getElementById("sruthidescription").innerHTML = "";
 
+    document.getElementById("Niveditha1").src = "https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/dslr-camera/desktop/DSLR_P1_900x420.jpg.img.jpg";
+    document.getElementById("nivedithadescription").innerHTML = "";
 //add
 }
 document.getElementById("reset").addEventListener("click", reset);
