@@ -72,7 +72,7 @@ function changeUnnati(event) {
 document.getElementById("Unnati1").addEventListener("click", changeUnnati);
 
 function changeJovita(event) {
-    event.target.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
+    event.target.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdaydaynews.cc%2Fen%2Fbeauty%2F923453.html&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAK";
     restorePicture();
     oldtarget = 6;
         document.getElementById("jovitadescription").innerHTML = "Jovita <strong>loves</strong> froyo :D"
