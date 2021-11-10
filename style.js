@@ -13,7 +13,7 @@ function restorePicture() {
     if (oldTarget == 4) {
          document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
     } 
-    if (oldTarget == 5) {
+    if (oldTarget == 6) {
          document.getElementById("Jovita1").src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
     } 
     
