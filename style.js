@@ -12,7 +12,10 @@ function restorePicture() {
     }
     if (oldTarget == 4) {
          document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
-    } 
+    }
+    if (oldTarget == 5) {
+         document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
+    }
     if (oldTarget == 6) {
          document.getElementById("Jovita1").src = "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.18169-9/11701079_1108700615814049_3893307625563998154_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kKp3VeG5OLMAX_0UWeU&_nc_ht=scontent.fewr1-6.fna&oh=a52b7e1e4f3ace58a648fee139b0107d&oe=61B1CFCE";
     } 
