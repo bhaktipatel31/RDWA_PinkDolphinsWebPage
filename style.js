@@ -14,7 +14,7 @@ function restorePicture() {
          document.getElementById("Niveditha1").src = "https://global.canon/ja/c-museum/wp-content/uploads/2021/02/dslr892_top.jpg";
     } 
     if (oldTarget == 5) {
-         document.getElementById("Niveditha1").src = "http://vivianwskwan.com/wp-content/uploads/2018/06/mochimii_family-gif-500.gif";
+         document.getElementById("Jovita1").src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
     } 
     
 //add
@@ -70,6 +70,15 @@ function changeUnnati(event) {
         document.getElementById("unnatidescription").innerHTML = "Unnati <strong>loves<strong> strawberry mochi :P"
 }
 document.getElementById("Unnati1").addEventListener("click", changeUnnati);
+
+function changeJovita(event) {
+    event.target.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
+    restorePicture();
+    oldtarget = 6;
+        document.getElementById("jovitadescription").innerHTML = "Jovita <strong>loves</strong> froyo :D"
+}
+document.getElementById("Jovita1").addEventListener("click", changeJovita);
+
 //add
 
 
@@ -89,32 +98,13 @@ function reset() {
     document.getElementById("Unnati1").src = "https://st4.depositphotos.com/1720323/31060/v/1600/depositphotos_310600904-stock-illustration-cute-kawaii-character-black-tapioca.jpg";
     document.getElementById("unnatidescription").innerHTML = "";
     
+    document.getElementById("Jovita1").src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fcute-woman-avatar-casual-vector-12875231&psig=AOvVaw3ufdGiir6T3mxeZ4f1f5GY&ust=1636594996148000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjG59PVjPQCFQAAAAAdAAAAABAE";
+    document.getElementById("jovitadescription").innerHTML = "";
+    
 //add
 }
 document.getElementById("reset").addEventListener("click", reset);
 
 
 //above is updated
-
-
-
-    if (oldtarget = 4) {
-        document.getElementById("Jovita1").src"";
-    }
-
-
-function changeJovita(event) {
-    console.dir(oldtarget);
-    event.target.src = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Fbrown-hair-businesswoman-avatar-woman-face-profile-icon-concept-online-support-service-female-cartoon-character-portrait-brown-126956822.jpg&imgrefurl=https%3A%2F%2Fwww.dreamstime.com%2Fbrown-hair-businesswoman-avatar-woman-face-profile-icon-concept-online-support-service-female-cartoon-character-portrait-brown-image126956822&tbnid=zzOFjYXkb3ahLM&vet=10CA0QxiAoBGoXChMI-M71y_v68wIVAAAAAB0AAAAAECg..i&docid=aGaahZixbesGuM&w=1600&h=1690&itg=1&q=avatars%20for%20profile&ved=0CA0QxiAoBGoXChMI-M71y_v68wIVAAAAAB0AAAAAECg";
-    if (oldtarget !== null) {
-        oldtarget.src = oldpic;
-    }
-    oldtarget = event.target;
-    oldpic =
-        document.getElementById("description").innerHTML = "Jovita <strong>loves</strong> "
-}
-document.getElementById("Jovita1").addEventListener("click", changeJovita);
-//Jovita 
-
-
 
