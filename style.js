@@ -17,7 +17,7 @@ function restorePicture() {
         document.getElementById("Sruthi1").src"";
     }
     if (oldtarget = 6) {
-        document.getElementById("Nive1").src"";
+        document.getElementById("Niveditha1").src"";
     }
 }
 
@@ -83,15 +83,15 @@ document.getElementById("Sruthi1").addEventListener("click", changeSruthi);
 
 function changeNiveditha(event) {
     console.dir(oldtarget);
-    event.target.src = " ";
+    event.target.src = "https://media.istockphoto.com/vectors/cute-animals-collection-farm-animals-wild-animals-marina-animals-on-vector-id935702298?k=20&m=935702298&s=612x612&w=0&h=om30gvIfk4HJHX1fVLMWahhpdghcVHbbj6D5m9oDocQ= ";
     if (oldtarget !== null) {
         oldtarget.src = oldpic;
     }
     oldtarget = event.target;
-    oldpic =
+    oldpic = "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         document.getElementById("description").innerHTML = "Nive <strong>loves<strong> photography <3"
 }
-document.getElementById("Nive1").addEventListener("click", changeNiveditha);
+document.getElementById("Niveditha1").addEventListener("click", changeNiveditha);
 //Nive
 
 
